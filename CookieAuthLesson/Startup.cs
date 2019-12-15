@@ -33,7 +33,7 @@ namespace CookieAuthLesson
                     options.LoginPath = "/Auth/Index";
                 });
 
-            services.AddDbContext<UserContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyConnection")));
+            services.AddDbContext<UserContext>(options => options.UseNpgsql(Configuration.GetConnectionString("MyConnection")));
             services.AddTransient<AuthService>();
 
             services.AddControllersWithViews();

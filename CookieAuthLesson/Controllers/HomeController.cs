@@ -26,6 +26,7 @@ namespace CookieAuthLesson.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Email = authService.DecryptClaim();
             return View();
         }
 

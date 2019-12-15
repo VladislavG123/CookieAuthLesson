@@ -1,27 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\гороховв\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj": {}
+    "C:\\Users\\Vlad\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\гороховв\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj": {
+    "C:\\Users\\Vlad\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\гороховв\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj",
+        "projectUniqueName": "C:\\Users\\Vlad\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj",
         "projectName": "CookieAuthLesson",
-        "projectPath": "C:\\Users\\гороховв\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj",
-        "packagesPath": "C:\\Users\\гороховв\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\гороховв\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\obj\\",
+        "projectPath": "C:\\Users\\Vlad\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\CookieAuthLesson.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlad\\source\\repos\\CookieAuthLesson\\CookieAuthLesson\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\гороховв\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.timpotze.nl/api/v2/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,9 +66,17 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.Owin.Security.Cookies": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

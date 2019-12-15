@@ -18,7 +18,6 @@ namespace CookieAuthLesson.ViewModels
 
         [MinLength(6)]
         [Required]
-        []
         public string SecondPassword { get; set; }
     }
 }
